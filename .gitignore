@@ -1,0 +1,12 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+.DS_Store
+.env
+
+**/claudia.json
+**/credentialsCache.json
+**/.terraform
+**/node_modules
+**/*.tfstate
+**/*.tfstate.backup
+terraform/plan

@@ -1,0 +1,21 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.268.1",
+    "co": "^4.6.0",
+    "faker": "^4.1.0",
+    "superagent": "^3.8.3",
+    "superagent-aws-signed-request": "^1.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "create": "node admin_create_user.js",
+    "test": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
